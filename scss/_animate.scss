@@ -1,0 +1,41 @@
+#maindiv {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    font-weight: 700;
+    color: $orange;
+    // background-color: #020202;
+    margin-top: 80px;
+    padding: 16px 0;
+}
+
+#div1 {
+    display: inline-block;
+    animation: marquee 30s linear infinite;
+    font-size: 48px;
+}
+
+#div2 {
+    display: inline-block;
+    animation: marquee2 30s linear infinite;
+    animation-delay: 15s;
+    font-size: 48px;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes marquee2 {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-200%);
+    }
+}
