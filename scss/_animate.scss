@@ -1,26 +1,30 @@
 #maindiv {
     overflow: hidden;
     white-space: nowrap;
-    width: 100%;
     font-weight: 700;
     color: $black;
     background-color: $orange;
-    margin-top: 80px;
+    position: relative;
+
     padding: 16px 0;
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 100%;
+
 }
 
 #div1 {
     display: inline-block;
     animation: marquee 30s linear infinite;
-    font-size: 27px;
+    font-size: 28px;
     width: 100%;
 }
 
 #div2 {
     display: inline-block;
     animation: marquee2 30s linear infinite;
-    animation-delay: 15s;
-    font-size: 27px;
+    animation-delay: 5s;
+    font-size: 28px;
 }
 
 @keyframes marquee {
