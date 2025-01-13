@@ -5,6 +5,10 @@
     background-position: bottom;
     background-size: cover;
 
+    b {
+        color: $orange;
+    }
+
     .grid {
         display: grid;
         grid-template-columns: repeat(18, 1fr); /* 12 colunas */
@@ -42,7 +46,7 @@
         align-items: center;
 
         h2 {
-            color: $white;
+            color: $orange;
         }
 
         p {
@@ -61,7 +65,7 @@
     &__img-bottom {
         width: 31%;
 
-        height: 230px;
+        height: 350px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -88,6 +92,9 @@
     }
 
     @include responsive($tablet) {
+        #maindiv {
+            margin-top: 0;
+        }
         .d-flex {
             flex-direction: column;
 

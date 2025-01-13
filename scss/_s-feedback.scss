@@ -79,12 +79,12 @@
                 font-weight: 700;
                 -webkit-text-stroke-width: 0; /* Remove o stroke no mobile */
                 font-size: 47px;
-                color: #e0e0e0; /* Preenche o texto com uma cor visível */
+                color: $orange; /* Preenche o texto com uma cor visível */
                 opacity: 1;
             }
         }
         &__box2 {
-            background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(5, 5, 5, 0.5)), url(../img/feedback.png);
+            background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(5, 5, 5, 0.5)), url(../img/feedback.jpg);
             position: absolute;
             width: 90%;
             z-index: 1;
