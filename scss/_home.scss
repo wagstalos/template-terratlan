@@ -15,10 +15,10 @@
         opacity: 0.1;
     }
 
-    // .grid-cell {
-    //     border: 0.5px solid rgba(255, 255, 255, 0.3); /* Linhas horizontais e verticais */
-    //     pointer-events: none; /* Desabilita interação para fins decorativos */
-    // }
+    .grid-cell {
+        border: 0.5px solid rgba(255, 255, 255, 0.3); /* Linhas horizontais e verticais */
+        pointer-events: none; /* Desabilita interação para fins decorativos */
+    }
 
     .grid::before,
     .grid::after {
@@ -57,9 +57,9 @@
         }
         p {
             color: $white;
-            max-width: 65%;
+            max-width: 75%;
             margin: 40px auto;
-            font-size: 2.2rem;
+            font-size: 2rem;
         }
 
         .btn-primary {
